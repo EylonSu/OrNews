@@ -38,10 +38,11 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function () {
         if (navigator.network.connection.type == Connection.NONE) {
-            document.getElementById('conn').innerText = "אין חיבור לאינטרנט";
+            document.getElementsByClassName('conn')[0].style.display = "block";
         }
         else {
-            document.getElementById('loading').style.display = "none";
+            // document.getElementById('loader').style.display = "none";
+            // document.getElementById('loading').style.display = "none";
             document.getElementById('iframe').style.display = "block";
         }
     }
