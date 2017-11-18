@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.orNews" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>orNews</name>
+    <name>Or News - קרן אור בית שמש</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        קרן אור בית שמש
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="keren1_orr@walla.co.il" href="https://www.ornews.co.il/%D7%99%D7%A6%D7%99%D7%A8%D7%AA-%D7%A7%D7%A9%D7%A8">
+        Or News
     </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
